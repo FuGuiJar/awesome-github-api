@@ -1,8 +1,14 @@
 
 
-
+@[toc]
 ## 关于我的-API
-API说明
+我的页面所涉及到的API，包括：
+
+ 1. 我的主页
+ 2. 我的关注
+ 3. 我的仓库
+ 4. 我的粉丝
+
 
 ### 1.我的个人主页
 #### 1.1 请求说明
@@ -117,7 +123,7 @@ API说明
 ```
 
 ### 3.我的粉丝 Followers
-**请求说明**
+#### 3.1 请求说明
 | 说明 | URL | 备注|
 |--|--|--|
 | 请求URL |https://api.github.com/users/{user}/followers?page=1 |支持分页|
@@ -126,8 +132,8 @@ API说明
 | 例如 | https://api.github.com/users/crazyandcoder/followers?page=1 |需要分页处理|
 
 
-**返回响应**
-
+#### 3.2 返回响应
+结果返回一个数组
 ```
 [{
 	"login": "BearEgg",
@@ -172,7 +178,6 @@ API说明
 ```
 
 ### 4.我的仓库 Repositories
-
 #### 4.1 请求说明
 | 说明 | URL | 备注|
 |--|--|--|

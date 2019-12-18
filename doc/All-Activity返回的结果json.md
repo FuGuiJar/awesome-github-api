@@ -1,6 +1,7 @@
 
 请求详情：
 
+```
 URL	https://api.github.com/users/crazyandcoder/received_events?name=crazyandcoder&page=1
 Status	Complete
 Response Code	200 OK
@@ -40,7 +41,7 @@ Size
 Request	1.94 KB (1,986 bytes)
 Response	21.30 KB (21,813 bytes)
 Total	23.24 KB (23,799 bytes)
-
+```
 
 结果返回json:
 
